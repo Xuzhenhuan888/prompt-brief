@@ -26,7 +26,7 @@ npx skills add Xuzhenhuan888/prompt-brief --skill prompt-brief -a codex
 
 手动安装时，将包含 SKILL.md、references/、models.md 和 cache.md 的完整目录命名为 prompt-brief，放入宿主支持的技能目录并重新打开会话。在 Codex 中可显式输入 $prompt-brief。自动发现与加载由客户端决定，其他宿主请使用其文档约定的安装位置。
 
-## 三个领域知识库
+## 三个任务场景的prompt知识库
 
 | 知识库 | 主要内容 | 数量 |
 | --- | --- | ---: |
