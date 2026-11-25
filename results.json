@@ -1,0 +1,1000 @@
+{
+  "date": "2026-11-25",
+  "model": "gpt-6.2-sol",
+  "reasoning_effort": "low",
+  "notes": "Anonymized observations. Raw project inputs and answers are omitted.",
+  "skill_comparison": {
+    "v2": {
+      "runs": 24,
+      "input": 17359,
+      "cached": 13184,
+      "rate": 0.7945620265880697,
+      "uncached": 3830,
+      "seconds": 11.598500000000001
+    },
+    "v3": {
+      "runs": 24,
+      "input": 16840,
+      "cached": 15232,
+      "rate": 0.7884124771430594,
+      "uncached": 2361.5,
+      "seconds": 11.5475
+    },
+    "deltaSecondMinusFirst": {
+      "input": -519,
+      "cached": 0,
+      "uncached": -519,
+      "seconds": -0.09699999999999953
+    }
+  },
+  "first_turn_summary": {
+    "all": {
+      "scheduled": 24,
+      "paired": 24,
+      "baseline": 21,
+      "skill": 22,
+      "both": 20,
+      "skillOnly": 2,
+      "baselineOnly": 1,
+      "neither": 1,
+      "delta": 0.041666666666666664,
+      "exactP": 1
+    },
+    "regression": {
+      "scheduled": 18,
+      "paired": 18,
+      "baseline": 17,
+      "skill": 18,
+      "both": 17,
+      "skillOnly": 1,
+      "baselineOnly": 0,
+      "neither": 0,
+      "delta": 0.05555555555555555,
+      "exactP": 1
+    },
+    "new": {
+      "scheduled": 6,
+      "paired": 6,
+      "baseline": 4,
+      "skill": 4,
+      "both": 3,
+      "skillOnly": 1,
+      "baselineOnly": 1,
+      "neither": 1,
+      "delta": 0,
+      "exactP": 1
+    },
+    "code": {
+      "scheduled": 6,
+      "paired": 6,
+      "baseline": 6,
+      "skill": 6,
+      "both": 6,
+      "skillOnly": 0,
+      "baselineOnly": 0,
+      "neither": 0,
+      "delta": 0,
+      "exactP": 1
+    },
+    "ui": {
+      "scheduled": 6,
+      "paired": 6,
+      "baseline": 6,
+      "skill": 6,
+      "both": 6,
+      "skillOnly": 0,
+      "baselineOnly": 0,
+      "neither": 0,
+      "delta": 0,
+      "exactP": 1
+    },
+    "office": {
+      "scheduled": 12,
+      "paired": 12,
+      "baseline": 9,
+      "skill": 10,
+      "both": 8,
+      "skillOnly": 2,
+      "baselineOnly": 1,
+      "neither": 1,
+      "delta": 0.08333333333333333,
+      "exactP": 1
+    }
+  },
+  "paired_cases": [
+    {
+      "id": "C01",
+      "scenario": "code",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 12.025,
+          "usage": {
+            "input_tokens": 17833,
+            "cached_input_tokens": 13184,
+            "output_tokens": 96
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 12.436,
+          "usage": {
+            "input_tokens": 17314,
+            "cached_input_tokens": 0,
+            "output_tokens": 91
+          }
+        }
+      }
+    },
+    {
+      "id": "C02",
+      "scenario": "code",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 13.632,
+          "usage": {
+            "input_tokens": 18164,
+            "cached_input_tokens": 15488,
+            "output_tokens": 159
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 13.541,
+          "usage": {
+            "input_tokens": 17645,
+            "cached_input_tokens": 13184,
+            "output_tokens": 140
+          }
+        }
+      }
+    },
+    {
+      "id": "C03",
+      "scenario": "code",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 16.053,
+          "usage": {
+            "input_tokens": 18591,
+            "cached_input_tokens": 15488,
+            "output_tokens": 257
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 15.263,
+          "usage": {
+            "input_tokens": 18072,
+            "cached_input_tokens": 13184,
+            "output_tokens": 262
+          }
+        }
+      }
+    },
+    {
+      "id": "C04",
+      "scenario": "code",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 18.159,
+          "usage": {
+            "input_tokens": 16999,
+            "cached_input_tokens": 13184,
+            "output_tokens": 279
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 18.134,
+          "usage": {
+            "input_tokens": 16480,
+            "cached_input_tokens": 15232,
+            "output_tokens": 292
+          }
+        }
+      }
+    },
+    {
+      "id": "C05",
+      "scenario": "code",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 10.746,
+          "usage": {
+            "input_tokens": 17736,
+            "cached_input_tokens": 15232,
+            "output_tokens": 100
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 10.264,
+          "usage": {
+            "input_tokens": 17217,
+            "cached_input_tokens": 13184,
+            "output_tokens": 104
+          }
+        }
+      }
+    },
+    {
+      "id": "C06",
+      "scenario": "code",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 15.481,
+          "usage": {
+            "input_tokens": 17363,
+            "cached_input_tokens": 13184,
+            "output_tokens": 340
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 15.592,
+          "usage": {
+            "input_tokens": 16844,
+            "cached_input_tokens": 3968,
+            "output_tokens": 343
+          }
+        }
+      }
+    },
+    {
+      "id": "U01",
+      "scenario": "ui",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 16.542,
+          "usage": {
+            "input_tokens": 17257,
+            "cached_input_tokens": 12928,
+            "output_tokens": 46
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 13.427,
+          "usage": {
+            "input_tokens": 16738,
+            "cached_input_tokens": 12928,
+            "output_tokens": 46
+          }
+        }
+      }
+    },
+    {
+      "id": "U02",
+      "scenario": "ui",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 9.93,
+          "usage": {
+            "input_tokens": 17496,
+            "cached_input_tokens": 13184,
+            "output_tokens": 84
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 9.038,
+          "usage": {
+            "input_tokens": 16977,
+            "cached_input_tokens": 15232,
+            "output_tokens": 36
+          }
+        }
+      }
+    },
+    {
+      "id": "U03",
+      "scenario": "ui",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 9.57,
+          "usage": {
+            "input_tokens": 18843,
+            "cached_input_tokens": 13184,
+            "output_tokens": 67
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 10.234,
+          "usage": {
+            "input_tokens": 18324,
+            "cached_input_tokens": 15232,
+            "output_tokens": 77
+          }
+        }
+      }
+    },
+    {
+      "id": "U04",
+      "scenario": "ui",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 12.402,
+          "usage": {
+            "input_tokens": 18240,
+            "cached_input_tokens": 15488,
+            "output_tokens": 98
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 13.057,
+          "usage": {
+            "input_tokens": 17721,
+            "cached_input_tokens": 15488,
+            "output_tokens": 148
+          }
+        }
+      }
+    },
+    {
+      "id": "U05",
+      "scenario": "ui",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 13.926,
+          "usage": {
+            "input_tokens": 19811,
+            "cached_input_tokens": 13184,
+            "output_tokens": 169
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 13.401,
+          "usage": {
+            "input_tokens": 19292,
+            "cached_input_tokens": 13184,
+            "output_tokens": 163
+          }
+        }
+      }
+    },
+    {
+      "id": "U06",
+      "scenario": "ui",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 15.287,
+          "usage": {
+            "input_tokens": 18497,
+            "cached_input_tokens": 13184,
+            "output_tokens": 257
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 13.638,
+          "usage": {
+            "input_tokens": 17978,
+            "cached_input_tokens": 15488,
+            "output_tokens": 133
+          }
+        }
+      }
+    },
+    {
+      "id": "O01",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 10.027,
+          "usage": {
+            "input_tokens": 17242,
+            "cached_input_tokens": 15232,
+            "output_tokens": 72
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 9.708,
+          "usage": {
+            "input_tokens": 16723,
+            "cached_input_tokens": 15232,
+            "output_tokens": 59
+          }
+        }
+      }
+    },
+    {
+      "id": "O02",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "fail",
+          "seconds": 9.521,
+          "usage": {
+            "input_tokens": 16604,
+            "cached_input_tokens": 13184,
+            "output_tokens": 64
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 10.469,
+          "usage": {
+            "input_tokens": 16085,
+            "cached_input_tokens": 15232,
+            "output_tokens": 83
+          }
+        }
+      }
+    },
+    {
+      "id": "O02",
+      "scenario": "office",
+      "repeat": 2,
+      "first_run": false,
+      "conditions": {
+        "v2": {
+          "status": "fail",
+          "seconds": 10.199,
+          "usage": {
+            "input_tokens": 16604,
+            "cached_input_tokens": 0,
+            "output_tokens": 72
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 10.115,
+          "usage": {
+            "input_tokens": 16085,
+            "cached_input_tokens": 15232,
+            "output_tokens": 78
+          }
+        }
+      }
+    },
+    {
+      "id": "O02",
+      "scenario": "office",
+      "repeat": 3,
+      "first_run": false,
+      "conditions": {
+        "v2": {
+          "status": "fail",
+          "seconds": 8.959,
+          "usage": {
+            "input_tokens": 16604,
+            "cached_input_tokens": 15232,
+            "output_tokens": 33
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 10.067,
+          "usage": {
+            "input_tokens": 16085,
+            "cached_input_tokens": 15232,
+            "output_tokens": 86
+          }
+        }
+      }
+    },
+    {
+      "id": "O03",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 11.122,
+          "usage": {
+            "input_tokens": 16839,
+            "cached_input_tokens": 15232,
+            "output_tokens": 152
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 11.469,
+          "usage": {
+            "input_tokens": 16320,
+            "cached_input_tokens": 15232,
+            "output_tokens": 158
+          }
+        }
+      }
+    },
+    {
+      "id": "O04",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 12.973,
+          "usage": {
+            "input_tokens": 17370,
+            "cached_input_tokens": 15232,
+            "output_tokens": 184
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 11.512,
+          "usage": {
+            "input_tokens": 16851,
+            "cached_input_tokens": 15232,
+            "output_tokens": 155
+          }
+        }
+      }
+    },
+    {
+      "id": "O05",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 13.579,
+          "usage": {
+            "input_tokens": 17291,
+            "cached_input_tokens": 13184,
+            "output_tokens": 268
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 15.396,
+          "usage": {
+            "input_tokens": 16772,
+            "cached_input_tokens": 15232,
+            "output_tokens": 306
+          }
+        }
+      }
+    },
+    {
+      "id": "O06",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 12.593,
+          "usage": {
+            "input_tokens": 17857,
+            "cached_input_tokens": 13184,
+            "output_tokens": 214
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 11.583,
+          "usage": {
+            "input_tokens": 17338,
+            "cached_input_tokens": 15232,
+            "output_tokens": 165
+          }
+        }
+      }
+    },
+    {
+      "id": "H01",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "fail",
+          "seconds": 10.787,
+          "usage": {
+            "input_tokens": 17355,
+            "cached_input_tokens": 13184,
+            "output_tokens": 101
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 12.006,
+          "usage": {
+            "input_tokens": 16836,
+            "cached_input_tokens": 13184,
+            "output_tokens": 128
+          }
+        }
+      }
+    },
+    {
+      "id": "H01",
+      "scenario": "office",
+      "repeat": 2,
+      "first_run": false,
+      "conditions": {
+        "v2": {
+          "status": "fail",
+          "seconds": 11.548,
+          "usage": {
+            "input_tokens": 17355,
+            "cached_input_tokens": 15232,
+            "output_tokens": 119
+          }
+        },
+        "v3": {
+          "status": "fail",
+          "seconds": 10.519,
+          "usage": {
+            "input_tokens": 16836,
+            "cached_input_tokens": 15232,
+            "output_tokens": 113
+          }
+        }
+      }
+    },
+    {
+      "id": "H01",
+      "scenario": "office",
+      "repeat": 3,
+      "first_run": false,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 11.042,
+          "usage": {
+            "input_tokens": 17355,
+            "cached_input_tokens": 15232,
+            "output_tokens": 128
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 11.073,
+          "usage": {
+            "input_tokens": 16836,
+            "cached_input_tokens": 15232,
+            "output_tokens": 126
+          }
+        }
+      }
+    },
+    {
+      "id": "H02",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 9.978,
+          "usage": {
+            "input_tokens": 17115,
+            "cached_input_tokens": 13184,
+            "output_tokens": 85
+          }
+        },
+        "v3": {
+          "status": "fail",
+          "seconds": 9.853,
+          "usage": {
+            "input_tokens": 16596,
+            "cached_input_tokens": 13184,
+            "output_tokens": 61
+          }
+        }
+      }
+    },
+    {
+      "id": "H03",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 9.496,
+          "usage": {
+            "input_tokens": 16624,
+            "cached_input_tokens": 13184,
+            "output_tokens": 61
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 9.853,
+          "usage": {
+            "input_tokens": 16105,
+            "cached_input_tokens": 15232,
+            "output_tokens": 67
+          }
+        }
+      }
+    },
+    {
+      "id": "H04",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 10.467,
+          "usage": {
+            "input_tokens": 17029,
+            "cached_input_tokens": 13184,
+            "output_tokens": 101
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 11.077,
+          "usage": {
+            "input_tokens": 16510,
+            "cached_input_tokens": 15232,
+            "output_tokens": 65
+          }
+        }
+      }
+    },
+    {
+      "id": "H04",
+      "scenario": "office",
+      "repeat": 2,
+      "first_run": false,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 10.018,
+          "usage": {
+            "input_tokens": 17029,
+            "cached_input_tokens": 13184,
+            "output_tokens": 51
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 8.921,
+          "usage": {
+            "input_tokens": 16510,
+            "cached_input_tokens": 15232,
+            "output_tokens": 48
+          }
+        }
+      }
+    },
+    {
+      "id": "H04",
+      "scenario": "office",
+      "repeat": 3,
+      "first_run": false,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 10.625,
+          "usage": {
+            "input_tokens": 17029,
+            "cached_input_tokens": 13184,
+            "output_tokens": 102
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 10.123,
+          "usage": {
+            "input_tokens": 16510,
+            "cached_input_tokens": 15232,
+            "output_tokens": 81
+          }
+        }
+      }
+    },
+    {
+      "id": "H05",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "fail",
+          "seconds": 11.172,
+          "usage": {
+            "input_tokens": 17157,
+            "cached_input_tokens": 15232,
+            "output_tokens": 105
+          }
+        },
+        "v3": {
+          "status": "fail",
+          "seconds": 10.091,
+          "usage": {
+            "input_tokens": 16638,
+            "cached_input_tokens": 13184,
+            "output_tokens": 66
+          }
+        }
+      }
+    },
+    {
+      "id": "H06",
+      "scenario": "office",
+      "repeat": 1,
+      "first_run": true,
+      "conditions": {
+        "v2": {
+          "status": "pass",
+          "seconds": 10.584,
+          "usage": {
+            "input_tokens": 16756,
+            "cached_input_tokens": 15232,
+            "output_tokens": 91
+          }
+        },
+        "v3": {
+          "status": "pass",
+          "seconds": 10.481,
+          "usage": {
+            "input_tokens": 16237,
+            "cached_input_tokens": 15232,
+            "output_tokens": 90
+          }
+        }
+      }
+    }
+  ],
+  "within_message_layout_summary": {
+    "taskFirst": {
+      "runs": 5,
+      "input": 19799,
+      "cached": 15232,
+      "rate": 0.7440669147956938,
+      "uncached": 4567,
+      "seconds": 10.881
+    },
+    "sharedFirst": {
+      "runs": 5,
+      "input": 19799,
+      "cached": 15232,
+      "rate": 0.7142120911793856,
+      "uncached": 4567,
+      "seconds": 11.151
+    },
+    "deltaSecondMinusFirst": {
+      "input": 0,
+      "cached": 0,
+      "uncached": 0,
+      "seconds": -1.1630000000000003
+    }
+  },
+  "separate_message_summary": {
+    "single": {
+      "runs": 3,
+      "input": 19956,
+      "cached": 11904,
+      "rate": 0.5965322553703271,
+      "uncached": 8052,
+      "seconds": 6.342
+    },
+    "separate": {
+      "runs": 3,
+      "input": 19960,
+      "cached": 19840,
+      "rate": 0.8614850195397308,
+      "uncached": 120,
+      "seconds": 5.664
+    },
+    "deltaSecondMinusFirst": {
+      "input": 4,
+      "cached": 7936,
+      "uncached": -7932,
+      "seconds": -0.6030000000000006
+    }
+  },
+  "separate_message_trials": [
+    {
+      "id": "L00",
+      "condition": "separate",
+      "warmup": true,
+      "seconds": 4.358,
+      "input_tokens": 19949,
+      "cached_input_tokens": 5248
+    },
+    {
+      "id": "L00",
+      "condition": "single",
+      "warmup": true,
+      "seconds": 6.612,
+      "input_tokens": 19945,
+      "cached_input_tokens": 11904
+    },
+    {
+      "id": "L01",
+      "condition": "single",
+      "warmup": false,
+      "seconds": 6.342,
+      "input_tokens": 19956,
+      "cached_input_tokens": 11904
+    },
+    {
+      "id": "L01",
+      "condition": "separate",
+      "warmup": false,
+      "seconds": 4.756,
+      "input_tokens": 19960,
+      "cached_input_tokens": 19840
+    },
+    {
+      "id": "L02",
+      "condition": "separate",
+      "warmup": false,
+      "seconds": 7.026,
+      "input_tokens": 19960,
+      "cached_input_tokens": 11904
+    },
+    {
+      "id": "L02",
+      "condition": "single",
+      "warmup": false,
+      "seconds": 6.991,
+      "input_tokens": 19956,
+      "cached_input_tokens": 11904
+    },
+    {
+      "id": "L03",
+      "condition": "single",
+      "warmup": false,
+      "seconds": 6.267,
+      "input_tokens": 19954,
+      "cached_input_tokens": 11904
+    },
+    {
+      "id": "L03",
+      "condition": "separate",
+      "warmup": false,
+      "seconds": 5.664,
+      "input_tokens": 19958,
+      "cached_input_tokens": 19840
+    }
+  ]
+}
